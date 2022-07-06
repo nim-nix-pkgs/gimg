@@ -7,8 +7,49 @@
   "license": "MIT",
   "web": "https://gitlab.com/lurlo/gimg",
   "refs": [
-    "fatal: unable to access 'https://gitlab.com/lurlo/gimg/': The requested URL returned error: 503",
+    "warning: redirecting to https://gitlab.com/lurlo/gimg.git/",
+    "refs/heads/master",
     ""
   ],
-  "heads": []
+  "heads": [
+    {
+      "name": "gimg",
+      "version": "1.1.1",
+      "author": "Luciano Lorenzo",
+      "desc": "Google Images scraper lib and CLI",
+      "license": "MIT",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim"
+      ],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 1.7.1",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "1.7.1"
+          }
+        },
+        {
+          "name": "useragent",
+          "str": "any version",
+          "ver": {
+            "kind": "verAny"
+          }
+        }
+      ],
+      "bin": [
+        "gimg"
+      ],
+      "binDir": "build",
+      "srcDir": "src",
+      "backend": "c",
+      "ref": "refs/heads/master"
+    }
+  ]
 }
