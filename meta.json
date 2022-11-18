@@ -13,9 +13,9 @@
   "heads": [
     {
       "name": "gimg",
-      "version": "1.1.1",
-      "author": "Luciano Lorenzo",
-      "desc": "Google Images scraper lib and CLI",
+      "version": "1.2.2",
+      "author": "Thiago Navarro",
+      "desc": "Google Images scraper lib",
       "license": "MIT",
       "skipDirs": [],
       "skipFiles": [],
@@ -28,14 +28,14 @@
       "requires": [
         {
           "name": "nim",
-          "str": ">= 1.7.1",
+          "str": ">= 1.6.4",
           "ver": {
             "kind": "verEqLater",
-            "ver": "1.7.1"
+            "ver": "1.6.4"
           }
         },
         {
-          "name": "useragent",
+          "name": "https://github.com/thisago/useragent",
           "str": "any version",
           "ver": {
             "kind": "verAny"
